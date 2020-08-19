@@ -26,9 +26,27 @@
 - rm rf file 删除工作区文件
 - git rm file 删除版本库中文件
 - git commit -m "" 提交删除修改到暂存区
-- git checkout -- file 删错了，版本库存在file 恢复到最新版本
+- git checkout -- file 删错了，版本库存在file 可恢复到最新版本
 
+### 3.分支管理
+#### Git鼓励大量使用分支：
 
+- 查看分支：git branch
+- 创建分支：git branch <name>
+- 切换分支：git checkout <name>或者git switch <name>
+- 创建+切换分支：git checkout -b <name>或者git switch -c <name>
+- 合并某分支到当前分支：git merge <name>
+- 删除分支：git branch -d <name>
+
+### 4.标签管理
+- 命令git tag <tagname>用于新建一个标签，默认为HEAD，也可以指定一个commit id；
+- 命令git tag -a <tagname> -m "blablabla..."可以指定标签信息；
+- 命令git tag可以查看所有标签。``
+
+- 命令git push origin <tagname>可以推送一个本地标签；
+- 命令git push origin --tags可以推送全部未推送过的本地标签；
+- 命令git tag -d <tagname>可以删除一个本地标签；
+- 命令git push origin :refs/tags/<tagname>可以删除一个远程标签。
 
 
 
