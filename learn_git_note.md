@@ -13,7 +13,7 @@
 - git ls-files 查看版本库中管理的文件
 - git push origin master 后面推送不必使用 -u 参数
 
-### 2.回退、修改、撤销、删除
+### 2.回退、修改、撤销、删除 恢复
 #### 回退　历史未来版本
 - git reset --hard HEAD^ 回退到上一个版本 上上个为：HEAD^^ ,往上100个版本:HEAD~100
 - git reflog 命令日志
@@ -28,6 +28,8 @@
 - git rm file 删除版本库中文件
 - git commit -m "" 提交删除修改到暂存区
 - git checkout -- file 删错了，版本库存在file 可恢复到最新版本
+#### 恢复
+- git checkout -- filename 恢复版本库中文件到工作区
 
 ### 3.分支管理
 #### Git鼓励大量使用分支：
