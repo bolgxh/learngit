@@ -12,6 +12,8 @@
 - git add . 添加本目录下的所有文件到　暂存区
 - git ls-files 查看版本库中管理的文件
 - git push origin master 后面推送不必使用 -u 参数
+- git push -u origin master -f 强制覆盖远程仓库代码
+- git pull origin master 拉取远程仓库到本地,然后再推送到远程仓库
 
 ### 2.回退、修改、撤销、删除 恢复
 #### 回退　历史未来版本
@@ -51,7 +53,10 @@
 - 命令git tag -d <tagname>可以删除一个本地标签；
 - 命令git push origin :refs/tags/<tagname>可以删除一个远程标签。
 
-
+### 5.冲突处理
+#### 1.远程仓库和本地版本库冲突
+- git push -u origin master -f 强制覆盖远程仓库代码
+- git pull origin master 拉取远程仓库到本地,然后再推送到远程仓库
 
 
 
