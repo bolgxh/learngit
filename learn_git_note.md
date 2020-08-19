@@ -10,6 +10,7 @@
 ### [注]
 - git log 查看提交日志[最近到最远]
 - git add . 添加本目录下的所有文件到　暂存区
+- git ls-files 查看版本库中管理的文件
 - git push origin master 后面推送不必使用 -u 参数
 
 ### 2.回退、修改、撤销、删除
