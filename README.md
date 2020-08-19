@@ -1,16 +1,6 @@
-## Learngit
-
-- Git is a version control system.
-- Git is free softeare
-- Git is a distributed version control system
-- Git is a free software distributed under the GPL
-- Git tracks changes of files. 
-
-
-
-## git 工作原理图示
-
-![](/home/bolg/Code_Workspace/My_Github_Repo/learngit/img/git工作原理图示.jpeg)
-
-
+## git 学习精简笔记 
+### 1.基本操作
+### 2.回退，修改，撤销，删除 
+### 3.分支管理 
+### 4.标签管理 
 
